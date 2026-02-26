@@ -102,7 +102,8 @@ jobs:
           echo "Added conan remote ripple at ${CONAN_URL}"
       - name: build dependencies
         uses: ./.github/actions/dependencies
-        with:
+        with:[![levelization](https://github.com/JSTONE1111/rippled/actions/workflows/levelization.yml/badge.svg)](https://github.com/JSTONE1111/rippled/actions/workflows/levelization.yml)
+        
           configuration: ${{ matrix.configuration.type }}
       - name: build
         uses: ./.github/actions/build
